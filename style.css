@@ -50,9 +50,20 @@ input:focus:invalid {
     color: red;
 }
 
-/* trial styles */
-input [type=text] {
-    width: 76%;
-    height: 1em;
-    border: 15px solid #111;
+table {
+    color: #3d1c1c;
+    margin-inline: auto;
+    padding: 700px;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
